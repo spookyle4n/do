@@ -15,7 +15,7 @@ print('''
 ''')
 print("\033[31m[!]\033[35m  please make an account on \"doxbin.com\"")
 
-doxx = str(input(' [?] do you already have an account? [y/n]: '))
+doxx = str(input('  > [?] do you already have an account? [y/n]: '))
 
 if doxx == 'n': webbrowser.open('https://doxbin.com/register')
 
